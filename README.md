@@ -7,4 +7,7 @@ I’m a Product Manager with a strong background in marketing and a passion for 
 # GET TO KNOW ME
 
 Click below to explore my CV
-<a href="https://github.com/OlenaKryvoviaz/Portfolio/blob/main/Olena%20Kryvoviaz%20Product%20Manager.pdf" target="_blank">View My Resume (PDF)</a>
+
+<a href="https://github.com/OlenaKryvoviaz/Portfolio/blob/main/Olena%20Kryvoviaz%20Product%20Manager.pdf" target="_blank">Click to explore my CV (PDF)</a>
+
+[![Resume Preview](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/Olena%20Kryvoviaz%20Product%20Manager.pdf?text=Resume+Preview)](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/Olena%20Kryvoviaz%20Product%20Manager.pdf)
