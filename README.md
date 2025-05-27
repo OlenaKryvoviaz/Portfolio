@@ -22,27 +22,27 @@ Click below to explore my CV
 ### [Tableau Dashboard: Sales and Retention analysis](https://public.tableau.com/views/OlenaKryvoviazSalesandRetentionAnalysis/SalesandRetentionAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 <em> 
-The main sales and retention metrics were analyzed to identify weak and strong points for building a further growth strategy. 
-- Calculated Retention Rate for Month 1, Month 2, and Month 3 of the product users.
-- Divided this data by country.
-- Calculated average purchase check.
-- Calculated the average amount of purchases per month.
-- Built a recommendation list.
+Key sales and retention metrics were analyzed to highlight strengths and weaknesses and inform the growth strategy. 
+<br>- Calculated Month-1, Month-2, and Month-3 retention rates for product users.
+<br>- Segmented results by country.
+<br>- Computed the average purchase value.
+<br>- Calculated the average number of purchases per month.
+<br>- Compiled actionable recommendations.
  
 <br> Project Workflow: 
 
-<br> <strong> 1. Data Cleaning </strong>: Finding outliers and value ranges for each column.
-<br> <strong> 2. Data Processing and Calculation </strong>: Utilizing SQL for calculations: monthly retention derived by region ([Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/Retention%20by%20Region.sql)), average check, and average purchases per month derived by region ([Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/Av_Check_and_Purchases_per_Region.sql)).
-<br> <strong> 3. Visualization </strong>: Using Tableau, I created a dashboard that visualizes all the data. Heatmap and filters help to interpret the data better.
-<br> <strong> 4. Reporting: </strong>
+<br> <strong> 1. Data Cleaning </strong>: Identified outliers and validated value ranges for every column.
+<br> <strong> 2. Data Processing and Calculation </strong>: Used SQL to calculate monthly retention by region ([Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/Retention%20by%20Region.sql)), average purchase value, and monthly purchase frequency by region ([Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/Av_Check_and_Purchases_per_Region.sql)).
+<br> <strong> 3. Visualization </strong>: Built an interactive Tableau dashboard. Heatmaps and filters make the insights easy to explore.
+<br> <strong> 4. Reporting: </strong> Documented insights and next steps.
 
 <br> Conclusion:
 
-Recommendations vary from region to region. Here are some of them:
+Recommendations vary by region. Notable insights include:
 
-<br> <strong>Latin America.</strong> Here is a very good frequency of purchases, a good average check, but the number of users is small. You need to determine the success point for users in this market and try to scale.
-<br> <strong>Eastern Europe</strong> showed the highest average check and very good retention. Here, it is worth working on the frequency of purchases. Personalized promotions, loyalty programs, cross-sell and upsell offers, remarketing, push and email reminders, subscriptions or auto-refill, gamification - these are the options that can be used, but first I would conduct additional research.
-<br> <strong>East Asia</strong> has the highest retention, but a rather mediocre average check and the number of purchases per month. Here it is worth working on the product offer - upsell and bundle offers, a minimum amount for free shipping, premium versions of products, loyalty programs with bonuses for larger checks, personalized recommendations, limited-time discounts on more expensive products.
+<br> <strong>Latin America.</strong> Purchase frequency and average order value are strong, but the user base is small. Identify key success factors in this market and scale acquisition efforts.
+<br> <strong>Eastern Europe</strong> has the highest average order value and strong retention. Focus on increasing purchase frequency through personalized promotions, loyalty programs, cross-sell and upsell offers, remarketing, push and email reminders, subscriptions or auto-refill, and gamification. Additional research is recommended to prioritize these initiatives.
+<br> <strong>East Asia</strong> boasts the best retention, but average order value and purchase frequency are middling. Enhance the product offer—upsell and bundle deals, free-shipping thresholds, premium product versions, loyalty-program bonuses for larger baskets, personalized recommendations, and limited-time discounts on higher-end products.
 
 <br> Key Skills:
 
