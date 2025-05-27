@@ -44,13 +44,13 @@ Recommendations vary by region. Notable insights include:
 <br> <strong>Eastern Europe</strong> has the highest average order value and strong retention. Focus on increasing purchase frequency through personalized promotions, loyalty programs, cross-sell and upsell offers, remarketing, push and email reminders, subscriptions or auto-refill, and gamification. Additional research is recommended to prioritize these initiatives.
 <br> <strong>East Asia</strong> boasts the best retention, but average order value and purchase frequency are middling. Enhance the product offer—upsell and bundle deals, free-shipping thresholds, premium product versions, loyalty-program bonuses for larger baskets, personalized recommendations, and limited-time discounts on higher-end products.
 
-<br> Key Skills:
+<br> <strong>Key Skills:
 
 <br>SQL
 <br>Tableau
 <br>Product Data Analysis
 <br>Retention Metrics
-<br>Data Visualisations
+<br>Data Visualisations</strong>
 </p>
 
 [Dataset reference - Data generated randomly](https://docs.google.com/spreadsheets/d/1fg90CA7xKxxh_cIPLK0QFKU7xsfLxNy70F5nYP4d8zQ/edit?gid=0#gid=0)
