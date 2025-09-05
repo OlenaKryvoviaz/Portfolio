@@ -44,9 +44,9 @@ Key agent engagement metrics were analyzed to test whether automation and visual
 
 <br> <strong>Conclusion</strong>:
 
-<li>V1 showed <strong>+7% more leads</strong>, mainly due to improved invoice tracking</li>.
-<li>V2 showed <strong>+19% more leads</strong>, with significant increases in engagement and session duration</li>.
-<li>Correlations confirmed that both engagement and session duration are strongly linked to lead generation</li>.
+<br> - V1 showed <strong>+7% more leads</strong>, mainly due to improved invoice tracking.
+<br> - V2 showed <strong>+19% more leads</strong>, with significant increases in engagement and session duration.
+<br> - Correlations confirmed that both engagement and session duration are strongly linked to lead generation.
 
 <br> <strong>Key Skills</strong>:
 <p style="margin-left:20px;">
@@ -56,6 +56,7 @@ Key agent engagement metrics were analyzed to test whether automation and visual
 <br>Product Data Analysis
 <br>Experiment Design
 <br>Reporting & Case Study Writing
+</p>
 </p>
 
 August, 2025
