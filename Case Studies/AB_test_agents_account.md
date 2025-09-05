@@ -83,7 +83,7 @@ Result
 
 
 ![Result 3](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/images/Portfolio%20A%3AB%20test%20SQL%203.png)
-
+</ol>
 
 # Results
 
