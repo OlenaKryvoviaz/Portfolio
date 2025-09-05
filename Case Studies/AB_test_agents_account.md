@@ -9,49 +9,58 @@ The dataset provided here is entirely synthetic and does not contain any confide
 
 # Context
 
-The platform is an online investment product with a dedicated interface for referral agents. These agents introduce potential investors (leads) and earn commissions based on their leads’ investment activity.
-In the original interface, agents could view their leads and the status of each (e.g., registered, invested). If a lead invested, the agent could see the investment amount and investment date — but the commission calculation was manual, which led to confusion and drop-off in engagement.
-2. Problem
+The platform is an <strong>online investment product</strong> with a dedicated <strong>interface for referral agents</strong>. These agents introduce potential investors (leads) and earn commissions based on their leads’ investment activity.
+<p>In the original interface, agents could view their leads and the status of each (e.g., registered, invested). If a lead invested, the agent could see the investment amount and investment date — but the <strong>commission calculation was manual</strong>, which led to confusion and drop-off in engagement.
+
+# Problem
+
 Agent interviews revealed two recurring issues:
-Difficulty calculating commission fees on their own.
 
+<li>Difficulty calculating commission fees on their own.</li>
+<li>Lack of clarity on overall lead status, conversion, and earnings.</li>
+<br>
+This ambiguity contributed to <strong>agent inactivity</strong>, i.e., agents stopping after introducing a few leads or not coming back to introduce more.
 
-Lack of clarity on overall lead status, conversion, and earnings.
+# Hypothesis
 
+<p style="margin-left:20px;">If we <strong>automate commission calculations</strong> and add <strong>visual reporting of leads performance</strong>, agents will have clearer visibility into their earnings and impact, which will lead to <strong>higher engagement</strong> — measured by a <strong>+20% increase in new, qualified leads introduced per agent</strong>.</p>
 
-This ambiguity contributed to agent inactivity, i.e., agents stopping after introducing a few leads or not coming back to introduce more.
-3. Hypothesis
-If we automate commission calculations and add visual reporting of leads performance, agents will have clearer visibility into their earnings and impact, which will lead to higher engagement—measured by a +20% increase in new, qualified leads introduced per agent.
-4. Experiment Design
+# Experiment Design
+
 We tested three interface variants using a randomized rollout:
+| Variant | Description | 
+|----------|----------|
+|Base (Control)   | Original interface with no commission automation or visual data| 
+| V1    | Added automatic commission invoice generation, including downloadable PDFs and a table of invoice history (status: paid/unpaid)| 
+| V2    | Built on V1, adding interactive visualizations: graphs showing earnings over time, lead conversion funnels, and investment summaries| 
 
-Variant
-Description
-Base (Control)
-Original interface with no commission automation or visual data.
-V1
-Added automatic commission invoice generation, including downloadable PDFs and a table of invoice history (status: paid/unpaid).
-V2
-Built on V1, adding interactive visualizations: graphs showing earnings over time, lead conversion funnels, and investment summaries.
 
-Duration: 4 weeks
-Sample size: ~20% of active agents per variant
-Success metric: % increase in new leads introduced per agent
+<strong>Duration</strong>: 4 weeks
+<strong>Sample size</strong>: ~20% of active agents per variant
+<strong>Success metric</strong>: % increase in new leads introduced per agent
 
-5. Data sample and SQL queries
+# Data sample and SQL queries
+
+<a href="https://docs.google.com/spreadsheets/d/1abXU5Oc9gYd9ISvtK3EyOxtoDPCswqM4a18p5dSIy0A/edit?usp=sharing">Data Sample</a>
 
 Data sample: https://docs.google.com/spreadsheets/d/1abXU5Oc9gYd9ISvtK3EyOxtoDPCswqM4a18p5dSIy0A/edit?usp=sharing
 
-I user SQL to understand the following:
-Average leads introduced per Experiment Group
+I used SQL to understand the following:
+<ol type="1">
+ <li>Average leads introduced, average session duration, and average engagement rate per Experiment Group </li>
+
+  [Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/AB_test_averages_and_%_comparing_to_the_base))
+  
+Result
+<a href="https://github.com/OlenaKryvoviaz/Portfolio/blob/main/images/Portfolio A:B test SQL 1.png"><</a></p>
+
+<li>Correlation between leads introduced and average session durations/leads introduced and average engagement rate</li>
 Code Example
 Result
 
-Invoice Download Rates per Group
+<li>Invoice Download Rates per Group</li>
 Code Example
 Result
-
-
 
 6. Significance level
 
