@@ -19,9 +19,33 @@ Click below to explore my CV
 # MY PAST PROJECTS
 <hr>
 
+### [A/B Testing Case Study: Agent Dashboard Optimization](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/Case%20Studies/AB_test_agents_account.md)
+<br> 
+Key agent engagement metrics were analyzed to test whether automation and visual insights improved activity.
+<br>
+<li>Measured the number of new leads introduced.</li>
+
+<li>Compared engagement and session duration across groups.</li>
+
+<li>Assessed invoice download adoption.</li>
+
+<br> Project Workflow: 
+<ol type="1">
+  <br>
+<li><strong>Data Preparation</strong>: Generated a synthetic dataset of 300 agents split across Base, V1, and V2.</li>
+ <br>
+<li><strong>Experiment Design:</strong>
+<br> - Base = control group.
+<br> - V1 = added automatic invoice generation.
+<br> - V2 = invoice generation + performance visualizations.</li>
+ <br>
+<li><strong>Analysis</strong>: Used SQL to calculate lead growth, invoice download percentages, correlations between engagement/session and leads (Link to SQL queries).</li>
+<br>
+<li><strong>Reporting</strong>strong>: Documented results and summarized findings in a structured [case study](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/Case%20Studies/AB_test_agents_account.md).</li>
+</ol>
 ### [Tableau Dashboard: Sales and Retention analysis](https://public.tableau.com/views/OlenaKryvoviazSalesandRetentionAnalysis/SalesandRetentionAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-<em> 
+<br>
 Key sales and retention metrics were analyzed to highlight strengths and weaknesses and inform the growth strategy. 
 <br>- Calculated Month-1, Month-2, and Month-3 retention rates for product users.
 <br>- Segmented results by country.
