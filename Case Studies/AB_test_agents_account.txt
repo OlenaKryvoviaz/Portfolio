@@ -1,0 +1,121 @@
+📌<strong> Overview</strong>
+
+This case study demonstrates how I approached A/B testing to improve agent engagement and lead generation in an online investment platform.
+The goal was to analyze whether adding automatic invoice generation and visual analytics would increase agents' activity and the number of new leads introduced.
+
+⚠️ <strong>Important Note</strong>:
+
+The dataset provided here is entirely synthetic and does not contain any confidential, real, or company-related data. It was created solely for portfolio purposes to demonstrate analytical and SQL skills.
+
+# Context
+
+The platform is an online investment product with a dedicated interface for referral agents. These agents introduce potential investors (leads) and earn commissions based on their leads’ investment activity.
+In the original interface, agents could view their leads and the status of each (e.g., registered, invested). If a lead invested, the agent could see the investment amount and investment date — but the commission calculation was manual, which led to confusion and drop-off in engagement.
+2. Problem
+Agent interviews revealed two recurring issues:
+Difficulty calculating commission fees on their own.
+
+
+Lack of clarity on overall lead status, conversion, and earnings.
+
+
+This ambiguity contributed to agent inactivity, i.e., agents stopping after introducing a few leads or not coming back to introduce more.
+3. Hypothesis
+If we automate commission calculations and add visual reporting of leads performance, agents will have clearer visibility into their earnings and impact, which will lead to higher engagement—measured by a +20% increase in new, qualified leads introduced per agent.
+4. Experiment Design
+We tested three interface variants using a randomized rollout:
+
+Variant
+Description
+Base (Control)
+Original interface with no commission automation or visual data.
+V1
+Added automatic commission invoice generation, including downloadable PDFs and a table of invoice history (status: paid/unpaid).
+V2
+Built on V1, adding interactive visualizations: graphs showing earnings over time, lead conversion funnels, and investment summaries.
+
+Duration: 4 weeks
+Sample size: ~20% of active agents per variant
+Success metric: % increase in new leads introduced per agent
+
+5. Data sample and SQL queries
+
+Data sample: https://docs.google.com/spreadsheets/d/1abXU5Oc9gYd9ISvtK3EyOxtoDPCswqM4a18p5dSIy0A/edit?usp=sharing
+
+I user SQL to understand the following:
+Average leads introduced per Experiment Group
+Code Example
+Result
+
+Invoice Download Rates per Group
+Code Example
+Result
+
+
+
+6. Significance level
+
+7. Results
+
+
+Variant
+% Increase in Leads Introduced
+Observations
+Base
+0% (baseline)
+Agents continued manual calculations.
+V1
++7%
+Invoices were downloaded and viewed, but little behavioral change.
+V2
++19%
+Clear spike in engagement. Agents explored graphs frequently, indicating improved clarity and motivation.
+
+
+Supporting Data:
+Heatmaps and click data showed agents actively using visual filters and time-range selectors.
+
+
+Invoice download rates remained high in both V1 and V2 (~80% of active agents).
+
+
+
+6. Insights
+Automation alone (V1) improved transparency but didn't strongly influence behavior.
+
+
+Pairing data with visuals (V2) triggered stronger reactivation and ongoing engagement.
+
+
+Agents who interacted with the graphs were 3× more likely to introduce new leads than those who only used invoice tools.
+
+
+
+7. 
+
+8. Next Steps
+Roll out V2 to all agents.
+
+
+Introduce segmentation within the dashboard (e.g., filtering by lead region or campaign).
+
+
+Plan follow-up experiment on quality of leads: measure not just volume but also lead-to-investor conversion rate.
+
+
+
+8. Reflection
+This test highlighted the value of data storytelling in product UX. While functionality (automated invoices) was necessary, behavioral motivation came from giving agents intuitive insight into their impact. This reinforced our broader product principle: agents don’t just need data — they need confidence and clarity to act on it.
+
+
+📢 Disclaimer
+This project is for portfolio purposes only.
+The dataset is synthetic
+
+
+No confidential company information is disclosed
+
+
+The case study illustrates my product management, A/B testing, and analytics skills
+
+
