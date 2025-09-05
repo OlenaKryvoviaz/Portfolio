@@ -45,13 +45,11 @@ Key agent engagement metrics were analyzed to test whether automation and visual
 <br> <strong>Conclusion</strong>:
 
 <li>V1 showed <strong>+7% more leads</strong>, mainly due to improved invoice tracking</li>.
-
 <li>V2 showed <strong>+19% more leads</strong>, with significant increases in engagement and session duration</li>.
-
 <li>Correlations confirmed that both engagement and session duration are strongly linked to lead generation</li>.
 
 <br> <strong>Key Skills</strong>:
-
+<p style="margin-left:20px;">
 <br>SQL
 <br>A/B Testing
 <br>User Research & UX Insight
@@ -60,9 +58,7 @@ Key agent engagement metrics were analyzed to test whether automation and visual
 <br>Reporting & Case Study Writing
 </p>
 
-[Dataset reference - Data generated randomly](https://docs.google.com/spreadsheets/d/1fg90CA7xKxxh_cIPLK0QFKU7xsfLxNy70F5nYP4d8zQ/edit?gid=0#gid=0)
-
-April, 2025
+August, 2025
 <hr>
 
 
@@ -93,7 +89,7 @@ Recommendations vary by region. Notable insights include:
 <br> - East Asia boasts the best retention, but average order value and purchase frequency are middling. Enhance the product offer—upsell and bundle deals, free-shipping thresholds, premium product versions, loyalty-program bonuses for larger baskets, personalized recommendations, and limited-time discounts on higher-end products.
 
 <br> <strong>Key Skills</strong>:
-
+<p style="margin-left:20px;">
 <br>SQL
 <br>Tableau
 <br>Product Data Analysis
