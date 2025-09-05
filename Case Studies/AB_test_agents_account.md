@@ -53,6 +53,8 @@ I used SQL to understand the following:
   [Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/AB_test_averages_and_%25_comparing_to_the_base)
   
 Result
+![Result 1](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/images/Portfolio%20A%3AB%20test%20SQL%201.png)
+
 
 <li>Correlation between leads introduced and average session durations/leads introduced and average engagement rate</li>
 Code Example
