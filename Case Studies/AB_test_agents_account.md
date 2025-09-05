@@ -43,16 +43,14 @@ We tested three interface variants using a randomized rollout:
 
 <a href="https://docs.google.com/spreadsheets/d/1abXU5Oc9gYd9ISvtK3EyOxtoDPCswqM4a18p5dSIy0A/edit?usp=sharing">Data Sample</a>
 
-Data sample: https://docs.google.com/spreadsheets/d/1abXU5Oc9gYd9ISvtK3EyOxtoDPCswqM4a18p5dSIy0A/edit?usp=sharing
 
 I used SQL to understand the following:
 <ol type="1">
  <li>Average leads introduced, average session duration, and average engagement rate per Experiment Group </li>
 
-  [Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/AB_test_averages_and_%_comparing_to_the_base))
+  [Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/AB_test_averages_and_%_comparing_to_the_base)
   
 Result
-<a href="https://github.com/OlenaKryvoviaz/Portfolio/blob/main/images/Portfolio A:B test SQL 1.png"><</a></p>
 
 <li>Correlation between leads introduced and average session durations/leads introduced and average engagement rate</li>
 Code Example
