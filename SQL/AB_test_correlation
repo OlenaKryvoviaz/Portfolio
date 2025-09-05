@@ -1,0 +1,4 @@
+SELECT
+  CORR(new_leads_introduced, session_duration)   AS corr_leads_session,
+  CORR(new_leads_introduced, account_engagement) AS corr_leads_engagement
+FROM ab_test_agents_dataset;
