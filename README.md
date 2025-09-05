@@ -41,11 +41,14 @@ Key agent engagement metrics were analyzed to test whether automation and visual
  <br>
 <li><strong>Analysis</strong>: Used SQL to calculate lead growth, invoice download percentages, correlations between engagement/session and leads (Link to SQL queries).</li>
 <br>
-<li><strong>Reporting</strong>strong>: Documented results and summarized findings in a structured [case study](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/Case%20Studies/AB_test_agents_account.md).</li>
+<li><strong>Reporting</strong>: Documented results and summarized findings in a structured <a href="https://github.com/OlenaKryvoviaz/Portfolio/blob/main/Case%20Studies/AB_test_agents_account.md">case study</a>.</li>
+
 </ol>
+
 ### [Tableau Dashboard: Sales and Retention analysis](https://public.tableau.com/views/OlenaKryvoviazSalesandRetentionAnalysis/SalesandRetentionAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-<br>
+
+
 Key sales and retention metrics were analyzed to highlight strengths and weaknesses and inform the growth strategy. 
 <br>- Calculated Month-1, Month-2, and Month-3 retention rates for product users.
 <br>- Segmented results by country.
