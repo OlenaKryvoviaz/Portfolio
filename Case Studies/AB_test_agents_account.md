@@ -57,7 +57,7 @@ Result
 <br>
 ![Result 1](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/images/Portfolio%20A%3AB%20test%20SQL%201.png)
 
-
+<br>
 <li><strong>Correlation between leads introduced and average session durations/leads introduced and average engagement rate</strong></li>
 <br>
 [Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/AB_test_correlation)
@@ -65,7 +65,7 @@ Result
 Result
 <br>
 ![Result 2](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/images/Portfolio%20A%3AB%20test%20SQL%202.png)
-
+<br>
 <li><strong>Invoice Download Rates per Group</strong>strong></li>
 <br>
 [Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/AB_test_downloaded_invoice)
@@ -73,7 +73,7 @@ Result
 Result
 <br>
 ![Result 3](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/images/Portfolio%20A%3AB%20test%20SQL%203.png)
-
+</ol>
 
 # Results
 
