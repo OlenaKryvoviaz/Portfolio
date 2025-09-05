@@ -34,9 +34,11 @@ We tested three interface variants using a randomized rollout:
 | V1    | Added automatic commission invoice generation, including downloadable PDFs and a table of invoice history (status: paid/unpaid)| 
 | V2    | Built on V1, adding interactive visualizations: graphs showing earnings over time, lead conversion funnels, and investment summaries| 
 
-
+<br>
 <strong>Duration</strong>: 4 weeks
+<br>
 <strong>Sample size</strong>: ~20% of active agents per variant
+<br>
 <strong>Success metric</strong>: % increase in new leads introduced per agent
 
 # Data sample and SQL queries
@@ -48,7 +50,7 @@ I used SQL to understand the following:
 <ol type="1">
  <li>Average leads introduced, average session duration, and average engagement rate per Experiment Group </li>
 
-  [Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/AB_test_averages_and_%_comparing_to_the_base)
+  [Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/AB_test_averages_and_%25_comparing_to_the_base)
   
 Result
 
