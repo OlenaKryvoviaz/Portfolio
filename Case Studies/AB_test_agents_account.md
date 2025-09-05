@@ -48,28 +48,29 @@ We tested three interface variants using a randomized rollout:
 <br>
 I used SQL to understand the following:
 <ol type="1">
- <li><stong></stong>Average leads introduced, average session duration, and average engagement rate per Experiment Group</li>strong> </li>
+ <li><strong>Average leads introduced, average session duration, and average engagement rate per Experiment Group</strong></li>
 <br>
-  
+  <br>
   [Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/AB_test_averages_and_%25_comparing_to_the_base)
   <br>
+ <br>
 Result
 <br>
 ![Result 1](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/images/Portfolio%20A%3AB%20test%20SQL%201.png)
 
 
-<li>Correlation between leads introduced and average session durations/leads introduced and average engagement rate</li>
+<li><strong>Correlation between leads introduced and average session durations/leads introduced and average engagement rate</strong></li>
 <br>
-  ![Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/AB_test_correlation)
-  
+  [Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/AB_test_correlation)
+  <br>
 Result
 <br>
 ![Result 2](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/images/Portfolio%20A%3AB%20test%20SQL%202.png)
 
-<li>Invoice Download Rates per Group</li>
+<li><strong>Invoice Download Rates per Group</strong>strong></li>
 <br>
   ![Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/AB_test_downloaded_invoice)
-  
+  <br>
 Result
 <br>
 ![Result 3](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/images/Portfolio%20A%3AB%20test%20SQL%203.png)
