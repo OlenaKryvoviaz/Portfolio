@@ -48,10 +48,11 @@ We tested three interface variants using a randomized rollout:
 <br>
 I used SQL to understand the following:
 <ol type="1">
- <li>Average leads introduced, average session duration, and average engagement rate per Experiment Group </li>
+ <li><stong></stong>Average leads introduced, average session duration, and average engagement rate per Experiment Group</li>strong> </li>
 <br>
   
-  ![Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/AB_test_averages_and_%25_comparing_to_the_base)
+  [Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/AB_test_averages_and_%25_comparing_to_the_base)
+  <br>
 Result
 <br>
 ![Result 1](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/images/Portfolio%20A%3AB%20test%20SQL%201.png)
