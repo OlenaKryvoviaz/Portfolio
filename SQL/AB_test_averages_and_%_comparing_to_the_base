@@ -1,0 +1,31 @@
+WITH agg AS (
+  SELECT
+    "group",
+    SUM(new_leads_introduced)                       AS total_leads,
+    AVG(session_duration)                           AS avg_session_duration,
+    AVG(account_engagement)                         AS avg_engagement
+  FROM ab_test_agents_dataset
+  GROUP BY "group"
+),
+base AS (
+  SELECT
+    total_leads              AS base_total_leads,
+    avg_session_duration     AS base_avg_session_duration,
+    avg_engagement           AS base_avg_engagement
+  FROM agg
+  WHERE "group" = 'Base'
+)
+SELECT
+  a."group",
+  a.total_leads,
+  ROUND(a.avg_session_duration, 2) AS avg_session_duration,
+  ROUND(a.avg_engagement, 2)       AS avg_engagement,
+  ROUND(100.0 * (a.total_leads - b.base_total_leads) / NULLIF(b.base_total_leads, 0), 2)
+    AS pct_raise_total_leads_vs_base,
+  ROUND(100.0 * (a.avg_session_duration - b.base_avg_session_duration) / NULLIF(b.base_avg_session_duration, 0), 2)
+    AS pct_raise_avg_session_vs_base,
+  ROUND(100.0 * (a.avg_engagement - b.base_avg_engagement) / NULLIF(b.base_avg_engagement, 0), 2)
+    AS pct_raise_avg_engagement_vs_base
+FROM agg a
+CROSS JOIN base b
+ORDER BY CASE a."group" WHEN 'Base' THEN 0 WHEN 'V1' THEN 1 ELSE 2 END;
