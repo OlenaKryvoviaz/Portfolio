@@ -73,7 +73,7 @@ Result
 ![Result 2](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/images/Portfolio%20A%3AB%20test%20SQL%202.png)
 
 
-<li><strong>Invoice Download Rates per Group</strong>strong></li>
+<li><strong>Invoice Download Rates per Group</strong></li>
 
 
 [Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/AB_test_downloaded_invoice)
@@ -87,65 +87,59 @@ Result
 
 # Results
 
-
-Variant
-% Increase in Leads Introduced
-Observations
-Base
-0% (baseline)
-Agents continued manual calculations.
-V1
-+7%
-Invoices were downloaded and viewed, but little behavioral change.
-V2
-+19%
-Clear spike in engagement. Agents explored graphs frequently, indicating improved clarity and motivation.
-
-
-Supporting Data:
-Heatmaps and click data showed agents actively using visual filters and time-range selectors.
-
-
-Invoice download rates remained high in both V1 and V2 (~80% of active agents).
+| Variant | % Increase in Leads Introduced | Observations |
+|----------|----------|----------|
+| Base  | 0% (baseline)   | Agents continued manual calculations.    |
+| V1   | +7% | Invoices were downloaded and viewed, but little behavioral change.  |
+| V2   | +19% | Clear spike in engagement. Agents explored graphs frequently, indicating improved clarity and motivation.  |
 
 
 
-6. Insights
-Automation alone (V1) improved transparency but didn't strongly influence behavior.
-
-
-Pairing data with visuals (V2) triggered stronger reactivation and ongoing engagement.
-
-
-Agents who interacted with the graphs were 3× more likely to introduce new leads than those who only used invoice tools.
+<strong>Supporting Data</strong>:
+<br>
+<li>Heatmaps and click data showed agents actively using visual filters and time-range selectors.</li>
+<li>Invoice download rates remained high in both V1 and V2 (~80% of active agents).</li>
 
 
 
-7. 
 
-8. Next Steps
-Roll out V2 to all agents.
-
-
-Introduce segmentation within the dashboard (e.g., filtering by lead region or campaign).
-
-
-Plan follow-up experiment on quality of leads: measure not just volume but also lead-to-investor conversion rate.
+# Insights
+<br>
+<li><strong>Automation alone</strong> (V1) improved transparency but didn't strongly influence behavior.</li>
+<br>
+<li><strong>Pairing data with visuals</strong> (V2) triggered stronger reactivation and ongoing engagement.</li>
+<br>
+<li>Agents who interacted with the graphs were <strong>3× more likely</strong> to introduce new leads than those who only used invoice tools.</li>
 
 
+# Next Steps
 
-8. Reflection
-This test highlighted the value of data storytelling in product UX. While functionality (automated invoices) was necessary, behavioral motivation came from giving agents intuitive insight into their impact. This reinforced our broader product principle: agents don’t just need data — they need confidence and clarity to act on it.
-
-
-📢 Disclaimer
-This project is for portfolio purposes only.
-The dataset is synthetic
+<br>
+<li>Roll out <strong>V2 to all agents</strong>.</li>
 
 
-No confidential company information is disclosed
+<br>
+<li>Introduce segmentation within the dashboard (e.g., filtering by lead region or campaign).</li>
 
 
-The case study illustrates my product management, A/B testing, and analytics skills
+<br>
+<li>Plan follow-up experiment on <strong>quality of leads</strong>: measure not just volume but also lead-to-investor conversion rate.</li>
+
+
+
+# Reflection
+
+This test highlighted the value of <strong>data storytelling</strong> in product UX. While functionality (automated invoices) was necessary, <strong>behavioral motivation came from giving agents intuitive insight into their impact</strong>. This reinforced our broader product principle: agents don’t just need data — they need <strong>confidence and clarity</strong> to act on it.
+
+
+📢 <strong>Disclaimer</strong>
+<br>
+This project is for <strong>portfolio purposes only</strong>.
+<br>
+<li>The dataset is <strong>synthetic</strong></li>
+<br>
+<li>No confidential company information is disclosed</li>
+<br>
+<li>The case study illustrates my <strong>product management, A/B testing, and analytics skills</strong></li>
 
 
