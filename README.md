@@ -29,21 +29,42 @@ Key agent engagement metrics were analyzed to test whether automation and visual
 
 <li>Assessed invoice download adoption.</li>
 
-<br> Project Workflow: 
+<br> <strong>Project Workflow</strong>: 
 <ol type="1">
   <br>
-<li><strong>Data Preparation</strong>: Generated a synthetic dataset of 300 agents split across Base, V1, and V2.</li>
+<li><strong>Problem & Hypothesis</strong>: Agent interviews revealed challenges with manual commission tracking and poor visibility into lead status. We hypothesized that automation and visual insights would increase engagement and lead generation.</li>
  <br>
-<li><strong>Experiment Design:</strong>
-<br> - Base = control group.
-<br> - V1 = added automatic invoice generation.
-<br> - V2 = invoice generation + performance visualizations.</li>
+<li><strong>Experiment Design:</strong>Tested three variants – Base (original), V1 (automatic invoices), V2 (invoices + interactive performance graphs)..</li>
  <br>
-<li><strong>Analysis</strong>: Used SQL to calculate lead growth, invoice download percentages, correlations between engagement/session and leads (Link to SQL queries).</li>
+<li><strong>Data & Analysis</strong>: Split agents into groups and measured leads introduced, invoice downloads, engagement, and session duration. SQL queries were used for comparisons and correlations.</li>
 <br>
-<li><strong>Reporting</strong>: Documented results and summarized findings in a structured <a href="https://github.com/OlenaKryvoviaz/Portfolio/blob/main/Case%20Studies/AB_test_agents_account.md">case study</a>.</li>
+<li><strong>Reporting</strong>: Results were consolidated into a <a href="https://github.com/OlenaKryvoviaz/Portfolio/blob/main/Case%20Studies/AB_test_agents_account.md">case study</a> highlighting key findings and recommendations for scaling.</li>
 
 </ol>
+
+<br> <strong>Conclusion</strong>:
+
+<li>V1 showed <strong>+7% more leads</strong>, mainly due to improved invoice tracking</li>.
+
+<li>V2 showed <strong>+19% more leads</strong>, with significant increases in engagement and session duration</li>.
+
+<li>Correlations confirmed that both engagement and session duration are strongly linked to lead generation</li>.
+
+<br> <strong>Key Skills</strong>:
+
+<br>SQL
+<br>A/B Testing
+<br>User Research & UX Insight
+<br>Product Data Analysis
+<br>Experiment Design
+<br>Reporting & Case Study Writing
+</p>
+
+[Dataset reference - Data generated randomly](https://docs.google.com/spreadsheets/d/1fg90CA7xKxxh_cIPLK0QFKU7xsfLxNy70F5nYP4d8zQ/edit?gid=0#gid=0)
+
+April, 2025
+<hr>
+
 
 ### [Tableau Dashboard: Sales and Retention analysis](https://public.tableau.com/views/OlenaKryvoviazSalesandRetentionAnalysis/SalesandRetentionAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
@@ -56,28 +77,28 @@ Key sales and retention metrics were analyzed to highlight strengths and weaknes
 <br>- Calculated the average number of purchases per month.
 <br>- Compiled actionable recommendations.
  
-<br> Project Workflow: 
+<br> <strong>Project Workflow</strong>: 
 
 <br> <strong> 1. Data Cleaning </strong>: Identified outliers and validated value ranges for every column.
 <br> <strong> 2. Data Processing and Calculation </strong>: Used SQL to calculate monthly retention by region ([Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/Retention%20by%20Region.sql)), average purchase value, and monthly purchase frequency by region ([Link to SQL queries](https://github.com/OlenaKryvoviaz/Portfolio/blob/main/SQL/Av_Check_and_Purchases_per_Region.sql)).
 <br> <strong> 3. Visualization </strong>: Built an interactive Tableau dashboard. Heatmaps and filters make the insights easy to explore.
 <br> <strong> 4. Reporting: </strong> Documented insights and next steps.
 
-<br> Conclusion:
+<br> <strong>Conclusion</strong>:
 
 Recommendations vary by region. Notable insights include:
 
-<br> <strong>Latin America.</strong> Purchase frequency and average order value are strong, but the user base is small. Identify key success factors in this market and scale acquisition efforts.
-<br> <strong>Eastern Europe</strong> has the highest average order value and strong retention. Focus on increasing purchase frequency through personalized promotions, loyalty programs, cross-sell and upsell offers, remarketing, push and email reminders, subscriptions or auto-refill, and gamification. Additional research is recommended to prioritize these initiatives.
-<br> <strong>East Asia</strong> boasts the best retention, but average order value and purchase frequency are middling. Enhance the product offer—upsell and bundle deals, free-shipping thresholds, premium product versions, loyalty-program bonuses for larger baskets, personalized recommendations, and limited-time discounts on higher-end products.
+<br> - Latin America. Purchase frequency and average order value are strong, but the user base is small. Identify key success factors in this market and scale acquisition efforts.
+<br> - Eastern Europe has the highest average order value and strong retention. Focus on increasing purchase frequency through personalized promotions, loyalty programs, cross-sell and upsell offers, remarketing, push and email reminders, subscriptions or auto-refill, and gamification. Additional research is recommended to prioritize these initiatives.
+<br> - East Asia boasts the best retention, but average order value and purchase frequency are middling. Enhance the product offer—upsell and bundle deals, free-shipping thresholds, premium product versions, loyalty-program bonuses for larger baskets, personalized recommendations, and limited-time discounts on higher-end products.
 
-<br> <strong>Key Skills:
+<br> <strong>Key Skills</strong>:
 
 <br>SQL
 <br>Tableau
 <br>Product Data Analysis
 <br>Retention Metrics
-<br>Data Visualisations</strong>
+<br>Data Visualisations
 </p>
 
 [Dataset reference - Data generated randomly](https://docs.google.com/spreadsheets/d/1fg90CA7xKxxh_cIPLK0QFKU7xsfLxNy70F5nYP4d8zQ/edit?gid=0#gid=0)
